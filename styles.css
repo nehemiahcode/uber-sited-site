@@ -1,4 +1,5 @@
-* {
+
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,8 +9,6 @@ body,html {
     width: 100%;
     background-color: aliceblue;
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -34,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: relative;
     top:0;
     left: 0;
     height:70px;
@@ -173,17 +172,7 @@ body {
     border: none;
     height:3rem;
 }
-.header2 .button2 {
-    background-color: white;
-    color:black;
-    border-radius: 2rem;
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    outline: none;
-    border: none;
-    height:3rem;
-    margin: 0.5rem 0 0 0;
-}
+
 .header1  .second_part span {
     color:black;
 }
@@ -199,6 +188,9 @@ body {
     width:20px;
     margin-top: 0.3rem;
     transition: .2s;
+}
+main {
+    margin: 4rem 0 0 0;
 }
 .menu_logo.active {
     transform: translate(0px) rotate(90deg) scale(85%);
@@ -229,6 +221,9 @@ nav {
  }
  .header2 .menu_logo {
     margin: 0 1.5rem 0 0;
+ }
+ main {
+    margin: 0;
  }
  nav {
     background-color: whitesmoke;
@@ -363,9 +358,7 @@ nav {
     }
      
    }
-   main{
-    margin:4.5rem 0 0 0;
-   }
+
 
   
 .icons_holder {
@@ -400,6 +393,9 @@ nav {
     .mobile_image {
         height:400px;
     }
+    main {
+        margin: 0;
+     }
 }
 .columns .card {
     width:100%;
@@ -666,7 +662,7 @@ display: none;
 }
 .card2 .box {
     width:160px;
-    height:90%;
+    height:97%;
     background-color: black;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     display: flex;
